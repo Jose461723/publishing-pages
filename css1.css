@@ -1,25 +1,55 @@
-	h1 {
-		color: black;
-		border-bottom: 1px solid black;
-		text-align: center; /* Center the text horizontally */
-        
-		}
-	h2 {
-		color: black;
-		margin-left: 100px;
-	}
-	p {
-		font-size: large;
-		font-family: sans-serif;
-		margin-left: 100px;
-	}
-	img {
-		float: center;
-		
-	}
-	.resize-img {
+/* Neutral background */
+body {
+    background-color: white; /* Background color set to white */
+    color: #333; /* Dark grey text for contrast and readability */
+    width: 750px; /* Fixed width */
+    font-family: 'Times New Roman', serif; /* Font family for the body text */
+}
+
+/* Heading 1 */
+h1 {
+    background-color: #dedede; /* Light blue background for emphasis */
+    color: black; /* Text color */
+}
+
+/* Heading 2 */
+h2 {
+    background-color: #dedede; /* Light blue background for emphasis */
+    color: black; /* Text color */
+}
+
+/* Paragraphs */
+p {
+    background-color: #dedede; /* Light blue background for paragraphs */
+    color: black; /* Text color */
+}
+
+/* Specific paragraph styling */
+p.one {
+    border: 2px solid #333; /* Dark grey border for contrast */
+}
+
+/* Specific heading 2 styling */
+h2.one {
+    border: 2px solid #333; /* Dark grey border for contrast */
+}
+
+/* Box */
+div.box {
+    height: 300px;
     width: 300px;
-    height: auto;
-	display: block; /* Asegura que la imagen se comporte como bloque */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    background-color: #e0e0e0; /* Light grey for the box background */
+}
+
+/* General styles for images */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Resize-img class to change size of images */
+.resize-img {
+    width: 100%; /* Set width to 100% of the container */
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
 }
