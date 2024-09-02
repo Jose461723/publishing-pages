@@ -3,76 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my_first_page</title>
-
-   
+    <title>My First Page</title>
+    <link rel="stylesheet" href="css1.css"> <!-- Correctly placed link tag for CSS -->
 </head>
-	<link rel="stylesheet"
-	href="css1.css"
 <body>
     <header>
         <img src="photothree.jpg" alt="photothree" class="resize-img" />
         <h1>Welcome</h1>
         <blockquote style="text-align: right;">
-    <p><i>Science is not only compatible with spirituality; it is a profound source of spirituality.</i>
-    <b>Carl Sagan</b></p>
-</blockquote>
-
+            <p><i>Science is not only compatible with spirituality; it is a profound source of spirituality.</i>
+            <b>Carl Sagan</b></p>
+        </blockquote>
     </header>
 
-    <div class="column">
-
-    
     <section>
-    <h2>About this site</h2>
-    <p>This site was created on August 24<sup>th</sup>, 2024</p>
-    <p>I'm using this space to practice <b>Git</b> and <b>GitHub</b>.
-        It's like a website where I can add to a project without
-        needing extra files or knowing <b>HTML</b>. It has an easy to use interface.
-    </p>
-	<hr/>
+        <div><h2 class="one">About this site</h2></div>
+        <p>This site was created on August 24<sup>th</sup>, 2024</p>
+        <p>I'm using this space to practice <b>Git</b> and <b>GitHub</b>.
+            It's like a website where I can add to a project without
+            needing extra files or knowing <b>HTML</b>. It has an easy-to-use interface.
+        </p>
+        <hr />
     </section>
 
     <section>
-
-    <h2>About me</h2>
-    
-    <p>My name is Jose and I'm studyng to become a biologist because I'm interested it topics like the theory 
-        of information in <acronym title="Deoxyribonucleic acid"><i>DNA</i></acronym> and similar things.
-    </p>
-	<figure>
-	<img src="photoone.jpg" alt="photoone" class="resize-img" title="It's me">
-	<br />
-	<figcaption>It's me</figcaption>
-	</figure>
-	<hr/>
+        <div><h2 class="one">About me</h2></div>
+        <p>My name is Jose and I'm studying to become a biologist because I'm interested in topics like the theory 
+            of information in <acronym title="Deoxyribonucleic acid"><i>DNA</i></acronym> and similar things.
+        </p>
+        <figure>
+            <img src="photoone.jpg" alt="photoone" class="resize-img" title="It's me">
+            <figcaption>It's me</figcaption>
+        </figure>
+        <hr />
     </section>
 
     <section>
-    <h2>More stuff</h2>
-    
-    <p>I like listening to music.</p>
-	<p><a href="https://github.com/Jose461723">GitHub</a></p>
+        <div><h2 class="one">More stuff</h2></div>
+        <p>I like listening to music.</p>
+        <p><a href="https://github.com/Jose461723">GitHub</a></p>
+        <hr />
     </section>
-	<hr/>
-	<form action="http://www.example.com/subsribe.php"
-	method="get">
-	<p>What did you think of this site?</p>
-	<textarea name="coments" cols="20" rows="4">Enter your comments... </textarea>
-	</form>
-    </div>
 
-    <div class="column">
-    
+    <section>
+        <form action="http://www.example.com/subscribe.php" method="get"> <!-- Fixed typo in URL and form action -->
+            <h2 class="one">What did you think of this site?</h2>
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea> <!-- Fixed typo in name attribute -->
+            <br /> <!-- Added a line break before the submit button for better spacing -->
+            <input type="submit" value="Submit"> <!-- Added a submit button to the form -->
+        </form>
+    </section>
 
     <img src="phototwo.jpg" alt="phototwo" class="resize-img">
-    </div>
+
     <footer>
-        <p><small>Copyright & copy; 2024 Jose Gonzalez</small></p>
+        <p><small>&copy; 2024 Jose Gonzalez</small></p> <!-- Corrected copyright symbol -->
     </footer>
-
-    
-
 </body>
-
 </html>
